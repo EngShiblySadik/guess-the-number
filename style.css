@@ -1,0 +1,54 @@
+body{ background-color: rgb(250, 192, 240);}
+#container {
+    margin: auto;
+    border: 5px solid lightblue;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    height: 500px;
+    width: 450px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10%;
+    margin-top: 100px;
+  }
+  p {
+    color: black;
+    font-style: inherit;
+  }
+  #userInput {
+    width: 170px;
+    height: 23px;
+  }
+  #enterButton {
+    outline: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+  }
+  #againButton {
+    outline: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+  }
+  #outputText {
+    color: red;
+  }
+  
+  #enterButton:hover{ 
+    background-color: chartreuse;
+    color: black;
+  }
+
+  #againButton:hover{
+    background-color: crimson;
+    color: black;
+  }
